@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Video</title>
+		</head>
+	<style>
+		.mmm{
+		  background-color: tomato;
+	  color: white;
+	  border: 2px solid black;
+	  margin: 20px;
+	  padding: 20px;
+		}
+	  </style>
+<body>
+	<div class='mmm'>
+	<center>
+		<h2>Final Denisty Map</h2>
+				<video width="450"
+					height="300"
+					controls
+					preload="auto">
+					<source src="{{ url_for('static', filename='project.mp4') }}" type="video/mp4">
+		
+				</video>
+	</center>
+</div>
+</body>
+</html>
